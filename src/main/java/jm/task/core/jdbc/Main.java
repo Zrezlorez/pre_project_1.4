@@ -1,6 +1,5 @@
 package jm.task.core.jdbc;
 
-import jm.task.core.jdbc.dao.UserDaoJDBCImpl;
 import jm.task.core.jdbc.service.UserService;
 import jm.task.core.jdbc.service.UserServiceImpl;
 
@@ -21,6 +20,6 @@ public class Main {
     }
 
     public static void printName(String name) {
-        System.out.println(String.format("User с именем — %s добавлен в базу данных", name));
+        System.out.printf("User с именем — %s добавлен в базу данных", name);
     }
 }
